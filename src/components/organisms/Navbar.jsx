@@ -74,20 +74,17 @@ const Navbar = () => {
           {/* Left: Logo and Title */}
           <div className="flex items-center space-x-2">
             <img src="/logo.png" alt="Logo" className="h-8" />
-            <span className="text-xl font-bold text-black-1">Peace Guy</span>
+            <span className="text-xl font-bold text-black-1">GROKGUY</span>
           </div>
 
           {/* Center: Navbar Menu and Social Links */}
 
-       <div className="flex items-center space-x-3">
-       <NavbarMenu activeSection={activeSection} />
-       <BuyButton />
-       </div>
+    
 
           {/* Right: Buy Button */}
           <div className="flex items-center space-x-3">
             <SocialIconsGroup />
-          
+            <BuyButton />
           </div>
         </div>
 

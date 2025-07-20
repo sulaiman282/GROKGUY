@@ -27,14 +27,14 @@ const Home = () => {
       {/* Left side: Text */}
       <div className="lg:w-[1000px] flex lg:flex-row flex-col items-center justify-between">
         <h1 className="glowing tracking-wider text-[96px] md:text-[115.2px] lg:text-[153.6px] font-bold text-white-1 font-bangers uppercase text-center w-full">
-          Peace Guy
+          GROKGUY
         </h1>
 
         {/* Right side: Image */}
 
         <img
           src="/home.png"
-          alt="Peace Guy Logo"
+          alt="GROKGUY Logo"
           className="w-[230px] h-[230px] md:w-[307px] md:h-[307px] lg:w-[461px] lg:h-[461px] object-contain"
         />
       </div>

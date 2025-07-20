@@ -1,8 +1,8 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
-  const siteTitle = "Peace Guy - $PEACEGUY Official Website";
-  const siteDescription = "Official website for Peace Guy ($PEACEGUY) token. Find us on Dexscreener, Dextools, and Raydium.";
+  const siteTitle = "GROKGUY - $PEACEGUY Official Website";
+  const siteDescription = "Official website for GROKGUY ($PEACEGUY) token. Find us on Dexscreener, Dextools, and Raydium.";
   const siteUrl = "https://www.peaceguy.io"; // TODO: Replace with your actual website URL
   const ogImageUrl = `${siteUrl}/logo.png`;
 
@@ -12,8 +12,8 @@ export default function Document() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={siteDescription} />
-        <meta name="keywords" content="Peace Guy, PEACEGUY, crypto, token, Dexscreener, Dextools, Raydium, cryptocurrency" />
-        <meta name="author" content="Peace Guy Team" />
+        <meta name="keywords" content="GROKGUY, PEACEGUY, crypto, token, Dexscreener, Dextools, Raydium, cryptocurrency" />
+        <meta name="author" content="GROKGUY Team" />
         <meta name="robots" content="index, follow" />
 
         {/* Open Graph Meta Tags */}

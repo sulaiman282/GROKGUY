@@ -55,7 +55,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: url('/background.png') no-repeat center center fixed;
+  background: url('/bg.gif') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   font-family: var(--font-ibm-plex-serif);
@@ -72,6 +72,6 @@ animation-direction:alternate;
 }
 
 @keyframes glow{
-from{text-shadow:0px 0px 0px #fff,0px 0px 0px #fffb1c;}
+from{text-shadow:0px 0px 0px #fff,0px 0px 0px #01268d;}
 to{text-shadow:0px 0px 12px #fff,0px 0px 5px rgb(131, 131, 131)}
 }
