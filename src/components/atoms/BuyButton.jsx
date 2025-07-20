@@ -11,7 +11,7 @@ const BuyButton = ({ children, className }) => {
       className={`px-3 py-1.5 text-sm font-bold rounded-full bg-[#FF0000] text-white hover:bg-[#CC0000] transition-colors duration-200 flex items-center space-x-2 ${className}`}
     >
       <img src="/cart.png" alt="Cart Icon" className="w-5 h-5"  />
-      <span>BUY $PEACEGUY</span>
+      <span>BUY $GROKGUY</span>
     </a>
   );
 };
