@@ -1,0 +1,26 @@
+{
+  "socialLinks": [
+    {
+      "name": "X",
+      "url": "https://x.com/Peaceguysol",
+      "icon": "/icons/twitter.png"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@chillpeaceguy",
+      "icon": "/icons/tiktok.png"
+    },
+    {
+      "name": "Dexscreener",
+      "url": "https://dexscreener.com/solana/h6ulh57bvurltn4zepaxpr6e6afw8wnxzvfbzfyjzrgg",
+      "icon": "/icons/dexscreener.png"
+    },
+    {
+      "name": "Dextools",
+      "url": "https://www.dextools.io/app/en/token/peaceguy?t=1749909894029", 
+      "icon": "/icons/dextools.png"
+    }
+  ],
+  "contractAddress": "85vdovHhkXnDi98EYMQmD2vXS82jRP1VDDXfkJ38pump",
+  "buyButtonUrl": "https://birdeye.so/token/85vdovHhkXnDi98EYMQmD2vXS82jRP1VDDXfkJ38pump?chain=solana"
+} 

@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  /* Import colors from tailwind.config.js */
+  --color-primary-1: #E0ECF0;
+  --color-primary-2: #B3D4DD;
+  --color-primary-3: #A4CAD8;
+  --color-primary-4: #7D9FAC;
+  --color-primary-5: #566F7B;
+  --color-primary: #A4CAD8;
+  --color-primary-active: #7D9FAC;
+  
+  --color-secondary-1: #FFF8E1;
+  --color-secondary-2: #FFD54F;
+  --color-secondary-3: #FFC107;
+  --color-secondary-4: #E0A800;
+  --color-secondary-5: #C29300;
+  --color-secondary: #FFC107;
+  --color-secondary-active: #E0A800;
+  
+  --color-black-1: #0A0A0A;
+  --color-black-2: #1A1A1A;
+  --color-black-3: #333333;
+  --color-black-4: #555555;
+  --color-black-5: #777777;
+  
+  --color-white-1: #FFFFFF;
+  --color-white-2: #F5F5F5;
+  --color-white-3: #E0E0E0;
+  --color-white-4: #C0C0C0;
+  --color-white-5: #A0A0A0;
+  
+  --color-gray-1: #F0F0F0;
+  --color-gray-2: #C8C8C8;
+  --color-gray-3: #808080;
+  --color-gray-4: #585858;
+  --color-gray-5: #303030;
+  
+  --color-sky-1: #E0F2F7;
+  --color-sky-2: #B2EBF2;
+  --color-sky-3: #80DEEA;
+  --color-sky-4: #42A5F5;
+  --color-sky-5: #2196F3;
+  
+  --font-ibm-plex-serif: "IBM Plex Serif", serif;
+  --font-bangers: "Bangers", cursive;
+  --font-luckiest-guy: "Luckiest Guy", cursive;
+}
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--font-ibm-plex-serif);
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: url('/background.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: var(--font-ibm-plex-serif);
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+.glowing{
+animation-name:glow;
+animation-duration:1.5s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+}
+
+@keyframes glow{
+from{text-shadow:0px 0px 0px #fff,0px 0px 0px #fffb1c;}
+to{text-shadow:0px 0px 12px #fff,0px 0px 5px rgb(131, 131, 131)}
+}
